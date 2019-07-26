@@ -6,51 +6,40 @@
 #include <algorithm>
 
 #include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/port.h>
 #include <google/protobuf/io/coded_stream.h>
+#include <google/protobuf/extension_set.h>
 #include <google/protobuf/wire_format_lite_inl.h>
 #include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-// This is a temporary google only hack
-#ifdef GOOGLE_PROTOBUF_ENFORCE_UNIQUENESS
-#include "third_party/protobuf/version.h"
-#endif
 // @@protoc_insertion_point(includes)
+#include <google/protobuf/port_def.inc>
 
-namespace protobuf_task_5fspec_2eproto {
-extern PROTOBUF_INTERNAL_EXPORT_protobuf_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskInput_Part;
-extern PROTOBUF_INTERNAL_EXPORT_protobuf_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskOutput;
-extern PROTOBUF_INTERNAL_EXPORT_protobuf_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskSpec_Parameter;
-extern PROTOBUF_INTERNAL_EXPORT_protobuf_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_TaskInput;
-}  // namespace protobuf_task_5fspec_2eproto
+extern PROTOBUF_INTERNAL_EXPORT_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskInput_Part_task_5fspec_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskOutput_task_5fspec_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_TaskSpec_Parameter_task_5fspec_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_task_5fspec_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_TaskInput_task_5fspec_2eproto;
 namespace chrome_lang_id {
 class TaskInput_PartDefaultTypeInternal {
  public:
-  ::google::protobuf::internal::ExplicitlyConstructed<TaskInput_Part>
-      _instance;
+  ::google::protobuf::internal::ExplicitlyConstructed<TaskInput_Part> _instance;
 } _TaskInput_Part_default_instance_;
 class TaskInputDefaultTypeInternal {
  public:
-  ::google::protobuf::internal::ExplicitlyConstructed<TaskInput>
-      _instance;
+  ::google::protobuf::internal::ExplicitlyConstructed<TaskInput> _instance;
 } _TaskInput_default_instance_;
 class TaskOutputDefaultTypeInternal {
  public:
-  ::google::protobuf::internal::ExplicitlyConstructed<TaskOutput>
-      _instance;
+  ::google::protobuf::internal::ExplicitlyConstructed<TaskOutput> _instance;
 } _TaskOutput_default_instance_;
 class TaskSpec_ParameterDefaultTypeInternal {
  public:
-  ::google::protobuf::internal::ExplicitlyConstructed<TaskSpec_Parameter>
-      _instance;
+  ::google::protobuf::internal::ExplicitlyConstructed<TaskSpec_Parameter> _instance;
 } _TaskSpec_Parameter_default_instance_;
 class TaskSpecDefaultTypeInternal {
  public:
-  ::google::protobuf::internal::ExplicitlyConstructed<TaskSpec>
-      _instance;
+  ::google::protobuf::internal::ExplicitlyConstructed<TaskSpec> _instance;
 } _TaskSpec_default_instance_;
 }  // namespace chrome_lang_id
-namespace protobuf_task_5fspec_2eproto {
-static void InitDefaultsTaskInput_Part() {
+static void InitDefaultsTaskInput_Part_task_5fspec_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
@@ -61,10 +50,10 @@ static void InitDefaultsTaskInput_Part() {
   ::chrome_lang_id::TaskInput_Part::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_TaskInput_Part =
-    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskInput_Part}, {}};
+::google::protobuf::internal::SCCInfo<0> scc_info_TaskInput_Part_task_5fspec_2eproto =
+    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskInput_Part_task_5fspec_2eproto}, {}};
 
-static void InitDefaultsTaskInput() {
+static void InitDefaultsTaskInput_task_5fspec_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
@@ -75,11 +64,11 @@ static void InitDefaultsTaskInput() {
   ::chrome_lang_id::TaskInput::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_TaskInput =
-    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsTaskInput}, {
-      &protobuf_task_5fspec_2eproto::scc_info_TaskInput_Part.base,}};
+::google::protobuf::internal::SCCInfo<1> scc_info_TaskInput_task_5fspec_2eproto =
+    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsTaskInput_task_5fspec_2eproto}, {
+      &scc_info_TaskInput_Part_task_5fspec_2eproto.base,}};
 
-static void InitDefaultsTaskOutput() {
+static void InitDefaultsTaskOutput_task_5fspec_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
@@ -90,10 +79,10 @@ static void InitDefaultsTaskOutput() {
   ::chrome_lang_id::TaskOutput::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_TaskOutput =
-    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskOutput}, {}};
+::google::protobuf::internal::SCCInfo<0> scc_info_TaskOutput_task_5fspec_2eproto =
+    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskOutput_task_5fspec_2eproto}, {}};
 
-static void InitDefaultsTaskSpec_Parameter() {
+static void InitDefaultsTaskSpec_Parameter_task_5fspec_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
@@ -104,10 +93,10 @@ static void InitDefaultsTaskSpec_Parameter() {
   ::chrome_lang_id::TaskSpec_Parameter::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_TaskSpec_Parameter =
-    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskSpec_Parameter}, {}};
+::google::protobuf::internal::SCCInfo<0> scc_info_TaskSpec_Parameter_task_5fspec_2eproto =
+    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTaskSpec_Parameter_task_5fspec_2eproto}, {}};
 
-static void InitDefaultsTaskSpec() {
+static void InitDefaultsTaskSpec_task_5fspec_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
@@ -118,27 +107,31 @@ static void InitDefaultsTaskSpec() {
   ::chrome_lang_id::TaskSpec::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<3> scc_info_TaskSpec =
-    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsTaskSpec}, {
-      &protobuf_task_5fspec_2eproto::scc_info_TaskSpec_Parameter.base,
-      &protobuf_task_5fspec_2eproto::scc_info_TaskInput.base,
-      &protobuf_task_5fspec_2eproto::scc_info_TaskOutput.base,}};
+::google::protobuf::internal::SCCInfo<3> scc_info_TaskSpec_task_5fspec_2eproto =
+    {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsTaskSpec_task_5fspec_2eproto}, {
+      &scc_info_TaskSpec_Parameter_task_5fspec_2eproto.base,
+      &scc_info_TaskInput_task_5fspec_2eproto.base,
+      &scc_info_TaskOutput_task_5fspec_2eproto.base,}};
 
-void InitDefaults() {
-  ::google::protobuf::internal::InitSCC(&scc_info_TaskInput_Part.base);
-  ::google::protobuf::internal::InitSCC(&scc_info_TaskInput.base);
-  ::google::protobuf::internal::InitSCC(&scc_info_TaskOutput.base);
-  ::google::protobuf::internal::InitSCC(&scc_info_TaskSpec_Parameter.base);
-  ::google::protobuf::internal::InitSCC(&scc_info_TaskSpec.base);
-}
-
-}  // namespace protobuf_task_5fspec_2eproto
 namespace chrome_lang_id {
 
 // ===================================================================
 
 void TaskInput_Part::InitAsDefaultInstance() {
 }
+class TaskInput_Part::HasBitSetters {
+ public:
+  static void set_has_file_pattern(TaskInput_Part* msg) {
+    msg->_has_bits_[0] |= 0x00000001u;
+  }
+  static void set_has_file_format(TaskInput_Part* msg) {
+    msg->_has_bits_[0] |= 0x00000002u;
+  }
+  static void set_has_record_format(TaskInput_Part* msg) {
+    msg->_has_bits_[0] |= 0x00000004u;
+  }
+};
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int TaskInput_Part::kFilePatternFieldNumber;
 const int TaskInput_Part::kFileFormatFieldNumber;
@@ -146,15 +139,13 @@ const int TaskInput_Part::kRecordFormatFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 TaskInput_Part::TaskInput_Part()
-  : ::google::protobuf::MessageLite(), _internal_metadata_(NULL) {
-  ::google::protobuf::internal::InitSCC(
-      &protobuf_task_5fspec_2eproto::scc_info_TaskInput_Part.base);
+  : ::google::protobuf::MessageLite(), _internal_metadata_(nullptr) {
   SharedCtor();
   // @@protoc_insertion_point(constructor:chrome_lang_id.TaskInput.Part)
 }
 TaskInput_Part::TaskInput_Part(const TaskInput_Part& from)
   : ::google::protobuf::MessageLite(),
-      _internal_metadata_(NULL),
+      _internal_metadata_(nullptr),
       _has_bits_(from._has_bits_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   file_pattern_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
@@ -173,6 +164,8 @@ TaskInput_Part::TaskInput_Part(const TaskInput_Part& from)
 }
 
 void TaskInput_Part::SharedCtor() {
+  ::google::protobuf::internal::InitSCC(
+      &scc_info_TaskInput_Part_task_5fspec_2eproto.base);
   file_pattern_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   file_format_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   record_format_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
@@ -193,7 +186,7 @@ void TaskInput_Part::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const TaskInput_Part& TaskInput_Part::default_instance() {
-  ::google::protobuf::internal::InitSCC(&protobuf_task_5fspec_2eproto::scc_info_TaskInput_Part.base);
+  ::google::protobuf::internal::InitSCC(&::scc_info_TaskInput_Part_task_5fspec_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -205,7 +198,7 @@ void TaskInput_Part::Clear() {
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
-  if (cached_has_bits & 7u) {
+  if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
       file_pattern_.ClearNonDefaultToEmptyNoArena();
     }
@@ -220,9 +213,91 @@ void TaskInput_Part::Clear() {
   _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+const char* TaskInput_Part::_InternalParse(const char* begin, const char* end, void* object,
+                  ::google::protobuf::internal::ParseContext* ctx) {
+  auto msg = static_cast<TaskInput_Part*>(object);
+  ::google::protobuf::int32 size; (void)size;
+  int depth; (void)depth;
+  ::google::protobuf::uint32 tag;
+  ::google::protobuf::internal::ParseFunc parser_till_end; (void)parser_till_end;
+  auto ptr = begin;
+  while (ptr < end) {
+    ptr = ::google::protobuf::io::Parse32(ptr, &tag);
+    GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+    switch (tag >> 3) {
+      // optional string file_pattern = 7;
+      case 7: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 58) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_file_pattern();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string file_format = 8;
+      case 8: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 66) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_file_format();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string record_format = 9;
+      case 9: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 74) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_record_format();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->EndGroup(tag);
+          return ptr;
+        }
+        auto res = UnknownFieldParse(tag, {_InternalParse, msg},
+          ptr, end, msg->_internal_metadata_.mutable_unknown_fields(), ctx);
+        ptr = res.first;
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr != nullptr);
+        if (res.second) return ptr;
+      }
+    }  // switch
+  }  // while
+  return ptr;
+string_till_end:
+  static_cast<::std::string*>(object)->clear();
+  static_cast<::std::string*>(object)->reserve(size);
+  goto len_delim_till_end;
+len_delim_till_end:
+  return ctx->StoreAndTailCall(ptr, end, {_InternalParse, msg},
+                               {parser_till_end, object}, size);
+}
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 bool TaskInput_Part::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   ::google::protobuf::internal::LiteUnknownFieldSetter unknown_fields_setter(
       &_internal_metadata_);
@@ -238,8 +313,7 @@ bool TaskInput_Part::MergePartialFromCodedStream(
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // optional string file_pattern = 7;
       case 7: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (58 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_file_pattern()));
         } else {
@@ -250,8 +324,7 @@ bool TaskInput_Part::MergePartialFromCodedStream(
 
       // optional string file_format = 8;
       case 8: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(66u /* 66 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (66 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_file_format()));
         } else {
@@ -262,8 +335,7 @@ bool TaskInput_Part::MergePartialFromCodedStream(
 
       // optional string record_format = 9;
       case 9: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(74u /* 74 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (74 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_record_format()));
         } else {
@@ -294,6 +366,7 @@ failure:
   return false;
 #undef DO_
 }
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
 void TaskInput_Part::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
@@ -331,23 +404,28 @@ size_t TaskInput_Part::ByteSizeLong() const {
 
   total_size += _internal_metadata_.unknown_fields().size();
 
-  if (_has_bits_[0 / 32] & 7u) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000007u) {
     // optional string file_pattern = 7;
-    if (has_file_pattern()) {
+    if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->file_pattern());
     }
 
     // optional string file_format = 8;
-    if (has_file_format()) {
+    if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->file_format());
     }
 
     // optional string record_format = 9;
-    if (has_record_format()) {
+    if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->record_format());
@@ -372,17 +450,17 @@ void TaskInput_Part::MergeFrom(const TaskInput_Part& from) {
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
-  if (cached_has_bits & 7u) {
+  if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      set_has_file_pattern();
+      _has_bits_[0] |= 0x00000001u;
       file_pattern_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_pattern_);
     }
     if (cached_has_bits & 0x00000002u) {
-      set_has_file_format();
+      _has_bits_[0] |= 0x00000002u;
       file_format_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_format_);
     }
     if (cached_has_bits & 0x00000004u) {
-      set_has_record_format();
+      _has_bits_[0] |= 0x00000004u;
       record_format_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.record_format_);
     }
   }
@@ -405,14 +483,14 @@ void TaskInput_Part::Swap(TaskInput_Part* other) {
 }
 void TaskInput_Part::InternalSwap(TaskInput_Part* other) {
   using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   file_pattern_.Swap(&other->file_pattern_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   file_format_.Swap(&other->file_format_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   record_format_.Swap(&other->record_format_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::std::string TaskInput_Part::GetTypeName() const {
@@ -424,6 +502,19 @@ void TaskInput_Part::InternalSwap(TaskInput_Part* other) {
 
 void TaskInput::InitAsDefaultInstance() {
 }
+class TaskInput::HasBitSetters {
+ public:
+  static void set_has_name(TaskInput* msg) {
+    msg->_has_bits_[0] |= 0x00000001u;
+  }
+  static void set_has_creator(TaskInput* msg) {
+    msg->_has_bits_[0] |= 0x00000002u;
+  }
+  static void set_has_multi_file(TaskInput* msg) {
+    msg->_has_bits_[0] |= 0x00000004u;
+  }
+};
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int TaskInput::kNameFieldNumber;
 const int TaskInput::kCreatorFieldNumber;
@@ -434,15 +525,13 @@ const int TaskInput::kPartFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 TaskInput::TaskInput()
-  : ::google::protobuf::MessageLite(), _internal_metadata_(NULL) {
-  ::google::protobuf::internal::InitSCC(
-      &protobuf_task_5fspec_2eproto::scc_info_TaskInput.base);
+  : ::google::protobuf::MessageLite(), _internal_metadata_(nullptr) {
   SharedCtor();
   // @@protoc_insertion_point(constructor:chrome_lang_id.TaskInput)
 }
 TaskInput::TaskInput(const TaskInput& from)
   : ::google::protobuf::MessageLite(),
-      _internal_metadata_(NULL),
+      _internal_metadata_(nullptr),
       _has_bits_(from._has_bits_),
       file_format_(from.file_format_),
       record_format_(from.record_format_),
@@ -461,6 +550,8 @@ TaskInput::TaskInput(const TaskInput& from)
 }
 
 void TaskInput::SharedCtor() {
+  ::google::protobuf::internal::InitSCC(
+      &scc_info_TaskInput_task_5fspec_2eproto.base);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   creator_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   multi_file_ = false;
@@ -480,7 +571,7 @@ void TaskInput::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const TaskInput& TaskInput::default_instance() {
-  ::google::protobuf::internal::InitSCC(&protobuf_task_5fspec_2eproto::scc_info_TaskInput.base);
+  ::google::protobuf::internal::InitSCC(&::scc_info_TaskInput_task_5fspec_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -495,7 +586,7 @@ void TaskInput::Clear() {
   record_format_.Clear();
   part_.Clear();
   cached_has_bits = _has_bits_[0];
-  if (cached_has_bits & 3u) {
+  if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
       name_.ClearNonDefaultToEmptyNoArena();
     }
@@ -508,9 +599,138 @@ void TaskInput::Clear() {
   _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+const char* TaskInput::_InternalParse(const char* begin, const char* end, void* object,
+                  ::google::protobuf::internal::ParseContext* ctx) {
+  auto msg = static_cast<TaskInput*>(object);
+  ::google::protobuf::int32 size; (void)size;
+  int depth; (void)depth;
+  ::google::protobuf::uint32 tag;
+  ::google::protobuf::internal::ParseFunc parser_till_end; (void)parser_till_end;
+  auto ptr = begin;
+  while (ptr < end) {
+    ptr = ::google::protobuf::io::Parse32(ptr, &tag);
+    GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+    switch (tag >> 3) {
+      // required string name = 1;
+      case 1: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 10) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_name();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string creator = 2;
+      case 2: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 18) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_creator();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // repeated string file_format = 3;
+      case 3: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 26) goto handle_unusual;
+        do {
+          ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          object = msg->add_file_format();
+          if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+            parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+            goto string_till_end;
+          }
+          GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+          ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+          ptr += size;
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 26 && (ptr += 1));
+        break;
+      }
+      // repeated string record_format = 4;
+      case 4: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 34) goto handle_unusual;
+        do {
+          ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          object = msg->add_record_format();
+          if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+            parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+            goto string_till_end;
+          }
+          GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+          ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+          ptr += size;
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 34 && (ptr += 1));
+        break;
+      }
+      // optional bool multi_file = 5 [default = false];
+      case 5: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 40) goto handle_unusual;
+        msg->set_multi_file(::google::protobuf::internal::ReadVarint(&ptr));
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        break;
+      }
+      // repeated group Part = 6 { ... };
+      case 6: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 51) goto handle_unusual;
+        do {
+          parser_till_end = ::chrome_lang_id::TaskInput_Part::_InternalParse;
+          object = msg->add_part();
+          auto res = ctx->ParseGroup(tag, {parser_till_end, object}, ptr, end, &depth);
+          ptr = res.first;
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          if (res.second) goto group_continues;
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 51 && (ptr += 1));
+        break;
+      }
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->EndGroup(tag);
+          return ptr;
+        }
+        auto res = UnknownFieldParse(tag, {_InternalParse, msg},
+          ptr, end, msg->_internal_metadata_.mutable_unknown_fields(), ctx);
+        ptr = res.first;
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr != nullptr);
+        if (res.second) return ptr;
+      }
+    }  // switch
+  }  // while
+  return ptr;
+string_till_end:
+  static_cast<::std::string*>(object)->clear();
+  static_cast<::std::string*>(object)->reserve(size);
+  goto len_delim_till_end;
+len_delim_till_end:
+  return ctx->StoreAndTailCall(ptr, end, {_InternalParse, msg},
+                               {parser_till_end, object}, size);
+group_continues:
+  GOOGLE_DCHECK(ptr >= end);
+  GOOGLE_PROTOBUF_PARSER_ASSERT(ctx->StoreGroup(
+      {_InternalParse, msg}, {parser_till_end, object}, depth, tag));
+  return ptr;
+}
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 bool TaskInput::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   ::google::protobuf::internal::LiteUnknownFieldSetter unknown_fields_setter(
       &_internal_metadata_);
@@ -526,8 +746,7 @@ bool TaskInput::MergePartialFromCodedStream(
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // required string name = 1;
       case 1: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (10 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_name()));
         } else {
@@ -538,8 +757,7 @@ bool TaskInput::MergePartialFromCodedStream(
 
       // optional string creator = 2;
       case 2: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (18 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_creator()));
         } else {
@@ -550,8 +768,7 @@ bool TaskInput::MergePartialFromCodedStream(
 
       // repeated string file_format = 3;
       case 3: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (26 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->add_file_format()));
         } else {
@@ -562,8 +779,7 @@ bool TaskInput::MergePartialFromCodedStream(
 
       // repeated string record_format = 4;
       case 4: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (34 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->add_record_format()));
         } else {
@@ -574,9 +790,8 @@ bool TaskInput::MergePartialFromCodedStream(
 
       // optional bool multi_file = 5 [default = false];
       case 5: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(40u /* 40 & 0xFF */)) {
-          set_has_multi_file();
+        if (static_cast< ::google::protobuf::uint8>(tag) == (40 & 0xFF)) {
+          HasBitSetters::set_has_multi_file(this);
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
                  input, &multi_file_)));
@@ -588,8 +803,7 @@ bool TaskInput::MergePartialFromCodedStream(
 
       // repeated group Part = 6 { ... };
       case 6: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(51u /* 51 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (51 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadGroup(6, input, add_part()));
         } else {
           goto handle_unusual;
@@ -616,6 +830,7 @@ failure:
   return false;
 #undef DO_
 }
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
 void TaskInput::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
@@ -679,6 +894,10 @@ size_t TaskInput::ByteSizeLong() const {
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   // repeated string file_format = 3;
   total_size += 1 *
       ::google::protobuf::internal::FromIntSize(this->file_format_size());
@@ -706,16 +925,17 @@ size_t TaskInput::ByteSizeLong() const {
     }
   }
 
-  if (_has_bits_[0 / 32] & 6u) {
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000006u) {
     // optional string creator = 2;
-    if (has_creator()) {
+    if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->creator());
     }
 
     // optional bool multi_file = 5 [default = false];
-    if (has_multi_file()) {
+    if (cached_has_bits & 0x00000004u) {
       total_size += 1 + 1;
     }
 
@@ -741,13 +961,13 @@ void TaskInput::MergeFrom(const TaskInput& from) {
   record_format_.MergeFrom(from.record_format_);
   part_.MergeFrom(from.part_);
   cached_has_bits = from._has_bits_[0];
-  if (cached_has_bits & 7u) {
+  if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      set_has_name();
+      _has_bits_[0] |= 0x00000001u;
       name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
     }
     if (cached_has_bits & 0x00000002u) {
-      set_has_creator();
+      _has_bits_[0] |= 0x00000002u;
       creator_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.creator_);
     }
     if (cached_has_bits & 0x00000004u) {
@@ -775,6 +995,8 @@ void TaskInput::Swap(TaskInput* other) {
 }
 void TaskInput::InternalSwap(TaskInput* other) {
   using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   file_format_.InternalSwap(CastToBase(&other->file_format_));
   record_format_.InternalSwap(CastToBase(&other->record_format_));
   CastToBase(&part_)->InternalSwap(CastToBase(&other->part_));
@@ -783,8 +1005,6 @@ void TaskInput::InternalSwap(TaskInput* other) {
   creator_.Swap(&other->creator_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(multi_file_, other->multi_file_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::std::string TaskInput::GetTypeName() const {
@@ -796,6 +1016,28 @@ void TaskInput::InternalSwap(TaskInput* other) {
 
 void TaskOutput::InitAsDefaultInstance() {
 }
+class TaskOutput::HasBitSetters {
+ public:
+  static void set_has_name(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000001u;
+  }
+  static void set_has_file_format(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000002u;
+  }
+  static void set_has_record_format(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000004u;
+  }
+  static void set_has_shards(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000020u;
+  }
+  static void set_has_file_base(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000008u;
+  }
+  static void set_has_file_extension(TaskOutput* msg) {
+    msg->_has_bits_[0] |= 0x00000010u;
+  }
+};
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int TaskOutput::kNameFieldNumber;
 const int TaskOutput::kFileFormatFieldNumber;
@@ -806,15 +1048,13 @@ const int TaskOutput::kFileExtensionFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 TaskOutput::TaskOutput()
-  : ::google::protobuf::MessageLite(), _internal_metadata_(NULL) {
-  ::google::protobuf::internal::InitSCC(
-      &protobuf_task_5fspec_2eproto::scc_info_TaskOutput.base);
+  : ::google::protobuf::MessageLite(), _internal_metadata_(nullptr) {
   SharedCtor();
   // @@protoc_insertion_point(constructor:chrome_lang_id.TaskOutput)
 }
 TaskOutput::TaskOutput(const TaskOutput& from)
   : ::google::protobuf::MessageLite(),
-      _internal_metadata_(NULL),
+      _internal_metadata_(nullptr),
       _has_bits_(from._has_bits_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
@@ -842,6 +1082,8 @@ TaskOutput::TaskOutput(const TaskOutput& from)
 }
 
 void TaskOutput::SharedCtor() {
+  ::google::protobuf::internal::InitSCC(
+      &scc_info_TaskOutput_task_5fspec_2eproto.base);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   file_format_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   record_format_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
@@ -867,7 +1109,7 @@ void TaskOutput::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const TaskOutput& TaskOutput::default_instance() {
-  ::google::protobuf::internal::InitSCC(&protobuf_task_5fspec_2eproto::scc_info_TaskOutput.base);
+  ::google::protobuf::internal::InitSCC(&::scc_info_TaskOutput_task_5fspec_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -879,7 +1121,7 @@ void TaskOutput::Clear() {
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
-  if (cached_has_bits & 31u) {
+  if (cached_has_bits & 0x0000001fu) {
     if (cached_has_bits & 0x00000001u) {
       name_.ClearNonDefaultToEmptyNoArena();
     }
@@ -901,9 +1143,128 @@ void TaskOutput::Clear() {
   _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+const char* TaskOutput::_InternalParse(const char* begin, const char* end, void* object,
+                  ::google::protobuf::internal::ParseContext* ctx) {
+  auto msg = static_cast<TaskOutput*>(object);
+  ::google::protobuf::int32 size; (void)size;
+  int depth; (void)depth;
+  ::google::protobuf::uint32 tag;
+  ::google::protobuf::internal::ParseFunc parser_till_end; (void)parser_till_end;
+  auto ptr = begin;
+  while (ptr < end) {
+    ptr = ::google::protobuf::io::Parse32(ptr, &tag);
+    GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+    switch (tag >> 3) {
+      // required string name = 1;
+      case 1: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 10) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_name();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string file_format = 2;
+      case 2: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 18) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_file_format();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string record_format = 3;
+      case 3: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 26) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_record_format();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional int32 shards = 4 [default = 0];
+      case 4: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 32) goto handle_unusual;
+        msg->set_shards(::google::protobuf::internal::ReadVarint(&ptr));
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        break;
+      }
+      // optional string file_base = 5;
+      case 5: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 42) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_file_base();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string file_extension = 6;
+      case 6: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 50) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_file_extension();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->EndGroup(tag);
+          return ptr;
+        }
+        auto res = UnknownFieldParse(tag, {_InternalParse, msg},
+          ptr, end, msg->_internal_metadata_.mutable_unknown_fields(), ctx);
+        ptr = res.first;
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr != nullptr);
+        if (res.second) return ptr;
+      }
+    }  // switch
+  }  // while
+  return ptr;
+string_till_end:
+  static_cast<::std::string*>(object)->clear();
+  static_cast<::std::string*>(object)->reserve(size);
+  goto len_delim_till_end;
+len_delim_till_end:
+  return ctx->StoreAndTailCall(ptr, end, {_InternalParse, msg},
+                               {parser_till_end, object}, size);
+}
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 bool TaskOutput::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   ::google::protobuf::internal::LiteUnknownFieldSetter unknown_fields_setter(
       &_internal_metadata_);
@@ -919,8 +1280,7 @@ bool TaskOutput::MergePartialFromCodedStream(
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // required string name = 1;
       case 1: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (10 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_name()));
         } else {
@@ -931,8 +1291,7 @@ bool TaskOutput::MergePartialFromCodedStream(
 
       // optional string file_format = 2;
       case 2: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (18 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_file_format()));
         } else {
@@ -943,8 +1302,7 @@ bool TaskOutput::MergePartialFromCodedStream(
 
       // optional string record_format = 3;
       case 3: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (26 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_record_format()));
         } else {
@@ -955,9 +1313,8 @@ bool TaskOutput::MergePartialFromCodedStream(
 
       // optional int32 shards = 4 [default = 0];
       case 4: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
-          set_has_shards();
+        if (static_cast< ::google::protobuf::uint8>(tag) == (32 & 0xFF)) {
+          HasBitSetters::set_has_shards(this);
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
                  input, &shards_)));
@@ -969,8 +1326,7 @@ bool TaskOutput::MergePartialFromCodedStream(
 
       // optional string file_base = 5;
       case 5: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (42 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_file_base()));
         } else {
@@ -981,8 +1337,7 @@ bool TaskOutput::MergePartialFromCodedStream(
 
       // optional string file_extension = 6;
       case 6: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (50 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_file_extension()));
         } else {
@@ -1010,6 +1365,7 @@ failure:
   return false;
 #undef DO_
 }
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
 void TaskOutput::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
@@ -1070,37 +1426,42 @@ size_t TaskOutput::ByteSizeLong() const {
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
-  if (_has_bits_[0 / 32] & 62u) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x0000003eu) {
     // optional string file_format = 2;
-    if (has_file_format()) {
+    if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->file_format());
     }
 
     // optional string record_format = 3;
-    if (has_record_format()) {
+    if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->record_format());
     }
 
     // optional string file_base = 5;
-    if (has_file_base()) {
+    if (cached_has_bits & 0x00000008u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->file_base());
     }
 
     // optional string file_extension = 6;
-    if (has_file_extension()) {
+    if (cached_has_bits & 0x00000010u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->file_extension());
     }
 
     // optional int32 shards = 4 [default = 0];
-    if (has_shards()) {
+    if (cached_has_bits & 0x00000020u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::Int32Size(
           this->shards());
@@ -1125,25 +1486,25 @@ void TaskOutput::MergeFrom(const TaskOutput& from) {
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
-  if (cached_has_bits & 63u) {
+  if (cached_has_bits & 0x0000003fu) {
     if (cached_has_bits & 0x00000001u) {
-      set_has_name();
+      _has_bits_[0] |= 0x00000001u;
       name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
     }
     if (cached_has_bits & 0x00000002u) {
-      set_has_file_format();
+      _has_bits_[0] |= 0x00000002u;
       file_format_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_format_);
     }
     if (cached_has_bits & 0x00000004u) {
-      set_has_record_format();
+      _has_bits_[0] |= 0x00000004u;
       record_format_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.record_format_);
     }
     if (cached_has_bits & 0x00000008u) {
-      set_has_file_base();
+      _has_bits_[0] |= 0x00000008u;
       file_base_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_base_);
     }
     if (cached_has_bits & 0x00000010u) {
-      set_has_file_extension();
+      _has_bits_[0] |= 0x00000010u;
       file_extension_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_extension_);
     }
     if (cached_has_bits & 0x00000020u) {
@@ -1171,6 +1532,8 @@ void TaskOutput::Swap(TaskOutput* other) {
 }
 void TaskOutput::InternalSwap(TaskOutput* other) {
   using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   name_.Swap(&other->name_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   file_format_.Swap(&other->file_format_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
@@ -1182,8 +1545,6 @@ void TaskOutput::InternalSwap(TaskOutput* other) {
   file_extension_.Swap(&other->file_extension_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(shards_, other->shards_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::std::string TaskOutput::GetTypeName() const {
@@ -1195,21 +1556,29 @@ void TaskOutput::InternalSwap(TaskOutput* other) {
 
 void TaskSpec_Parameter::InitAsDefaultInstance() {
 }
+class TaskSpec_Parameter::HasBitSetters {
+ public:
+  static void set_has_name(TaskSpec_Parameter* msg) {
+    msg->_has_bits_[0] |= 0x00000001u;
+  }
+  static void set_has_value(TaskSpec_Parameter* msg) {
+    msg->_has_bits_[0] |= 0x00000002u;
+  }
+};
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int TaskSpec_Parameter::kNameFieldNumber;
 const int TaskSpec_Parameter::kValueFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 TaskSpec_Parameter::TaskSpec_Parameter()
-  : ::google::protobuf::MessageLite(), _internal_metadata_(NULL) {
-  ::google::protobuf::internal::InitSCC(
-      &protobuf_task_5fspec_2eproto::scc_info_TaskSpec_Parameter.base);
+  : ::google::protobuf::MessageLite(), _internal_metadata_(nullptr) {
   SharedCtor();
   // @@protoc_insertion_point(constructor:chrome_lang_id.TaskSpec.Parameter)
 }
 TaskSpec_Parameter::TaskSpec_Parameter(const TaskSpec_Parameter& from)
   : ::google::protobuf::MessageLite(),
-      _internal_metadata_(NULL),
+      _internal_metadata_(nullptr),
       _has_bits_(from._has_bits_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
@@ -1224,6 +1593,8 @@ TaskSpec_Parameter::TaskSpec_Parameter(const TaskSpec_Parameter& from)
 }
 
 void TaskSpec_Parameter::SharedCtor() {
+  ::google::protobuf::internal::InitSCC(
+      &scc_info_TaskSpec_Parameter_task_5fspec_2eproto.base);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   value_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1242,7 +1613,7 @@ void TaskSpec_Parameter::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const TaskSpec_Parameter& TaskSpec_Parameter::default_instance() {
-  ::google::protobuf::internal::InitSCC(&protobuf_task_5fspec_2eproto::scc_info_TaskSpec_Parameter.base);
+  ::google::protobuf::internal::InitSCC(&::scc_info_TaskSpec_Parameter_task_5fspec_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -1254,7 +1625,7 @@ void TaskSpec_Parameter::Clear() {
   (void) cached_has_bits;
 
   cached_has_bits = _has_bits_[0];
-  if (cached_has_bits & 3u) {
+  if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
       name_.ClearNonDefaultToEmptyNoArena();
     }
@@ -1266,9 +1637,76 @@ void TaskSpec_Parameter::Clear() {
   _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+const char* TaskSpec_Parameter::_InternalParse(const char* begin, const char* end, void* object,
+                  ::google::protobuf::internal::ParseContext* ctx) {
+  auto msg = static_cast<TaskSpec_Parameter*>(object);
+  ::google::protobuf::int32 size; (void)size;
+  int depth; (void)depth;
+  ::google::protobuf::uint32 tag;
+  ::google::protobuf::internal::ParseFunc parser_till_end; (void)parser_till_end;
+  auto ptr = begin;
+  while (ptr < end) {
+    ptr = ::google::protobuf::io::Parse32(ptr, &tag);
+    GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+    switch (tag >> 3) {
+      // required string name = 4;
+      case 4: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 34) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_name();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string value = 5;
+      case 5: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 42) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_value();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->EndGroup(tag);
+          return ptr;
+        }
+        auto res = UnknownFieldParse(tag, {_InternalParse, msg},
+          ptr, end, msg->_internal_metadata_.mutable_unknown_fields(), ctx);
+        ptr = res.first;
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr != nullptr);
+        if (res.second) return ptr;
+      }
+    }  // switch
+  }  // while
+  return ptr;
+string_till_end:
+  static_cast<::std::string*>(object)->clear();
+  static_cast<::std::string*>(object)->reserve(size);
+  goto len_delim_till_end;
+len_delim_till_end:
+  return ctx->StoreAndTailCall(ptr, end, {_InternalParse, msg},
+                               {parser_till_end, object}, size);
+}
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 bool TaskSpec_Parameter::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   ::google::protobuf::internal::LiteUnknownFieldSetter unknown_fields_setter(
       &_internal_metadata_);
@@ -1284,8 +1722,7 @@ bool TaskSpec_Parameter::MergePartialFromCodedStream(
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // required string name = 4;
       case 4: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (34 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_name()));
         } else {
@@ -1296,8 +1733,7 @@ bool TaskSpec_Parameter::MergePartialFromCodedStream(
 
       // optional string value = 5;
       case 5: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (42 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_value()));
         } else {
@@ -1328,6 +1764,7 @@ failure:
   return false;
 #undef DO_
 }
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
 void TaskSpec_Parameter::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
@@ -1365,8 +1802,13 @@ size_t TaskSpec_Parameter::ByteSizeLong() const {
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   // optional string value = 5;
-  if (has_value()) {
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000002u) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->value());
@@ -1390,13 +1832,13 @@ void TaskSpec_Parameter::MergeFrom(const TaskSpec_Parameter& from) {
   (void) cached_has_bits;
 
   cached_has_bits = from._has_bits_[0];
-  if (cached_has_bits & 3u) {
+  if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      set_has_name();
+      _has_bits_[0] |= 0x00000001u;
       name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
     }
     if (cached_has_bits & 0x00000002u) {
-      set_has_value();
+      _has_bits_[0] |= 0x00000002u;
       value_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.value_);
     }
   }
@@ -1420,12 +1862,12 @@ void TaskSpec_Parameter::Swap(TaskSpec_Parameter* other) {
 }
 void TaskSpec_Parameter::InternalSwap(TaskSpec_Parameter* other) {
   using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   name_.Swap(&other->name_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   value_.Swap(&other->value_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::std::string TaskSpec_Parameter::GetTypeName() const {
@@ -1437,6 +1879,16 @@ void TaskSpec_Parameter::InternalSwap(TaskSpec_Parameter* other) {
 
 void TaskSpec::InitAsDefaultInstance() {
 }
+class TaskSpec::HasBitSetters {
+ public:
+  static void set_has_task_name(TaskSpec* msg) {
+    msg->_has_bits_[0] |= 0x00000001u;
+  }
+  static void set_has_task_type(TaskSpec* msg) {
+    msg->_has_bits_[0] |= 0x00000002u;
+  }
+};
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int TaskSpec::kTaskNameFieldNumber;
 const int TaskSpec::kTaskTypeFieldNumber;
@@ -1446,15 +1898,13 @@ const int TaskSpec::kOutputFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 TaskSpec::TaskSpec()
-  : ::google::protobuf::MessageLite(), _internal_metadata_(NULL) {
-  ::google::protobuf::internal::InitSCC(
-      &protobuf_task_5fspec_2eproto::scc_info_TaskSpec.base);
+  : ::google::protobuf::MessageLite(), _internal_metadata_(nullptr) {
   SharedCtor();
   // @@protoc_insertion_point(constructor:chrome_lang_id.TaskSpec)
 }
 TaskSpec::TaskSpec(const TaskSpec& from)
   : ::google::protobuf::MessageLite(),
-      _internal_metadata_(NULL),
+      _internal_metadata_(nullptr),
       _has_bits_(from._has_bits_),
       parameter_(from.parameter_),
       input_(from.input_),
@@ -1472,6 +1922,8 @@ TaskSpec::TaskSpec(const TaskSpec& from)
 }
 
 void TaskSpec::SharedCtor() {
+  ::google::protobuf::internal::InitSCC(
+      &scc_info_TaskSpec_task_5fspec_2eproto.base);
   task_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   task_type_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1490,7 +1942,7 @@ void TaskSpec::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const TaskSpec& TaskSpec::default_instance() {
-  ::google::protobuf::internal::InitSCC(&protobuf_task_5fspec_2eproto::scc_info_TaskSpec.base);
+  ::google::protobuf::internal::InitSCC(&::scc_info_TaskSpec_task_5fspec_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -1505,7 +1957,7 @@ void TaskSpec::Clear() {
   input_.Clear();
   output_.Clear();
   cached_has_bits = _has_bits_[0];
-  if (cached_has_bits & 3u) {
+  if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
       task_name_.ClearNonDefaultToEmptyNoArena();
     }
@@ -1517,9 +1969,127 @@ void TaskSpec::Clear() {
   _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+const char* TaskSpec::_InternalParse(const char* begin, const char* end, void* object,
+                  ::google::protobuf::internal::ParseContext* ctx) {
+  auto msg = static_cast<TaskSpec*>(object);
+  ::google::protobuf::int32 size; (void)size;
+  int depth; (void)depth;
+  ::google::protobuf::uint32 tag;
+  ::google::protobuf::internal::ParseFunc parser_till_end; (void)parser_till_end;
+  auto ptr = begin;
+  while (ptr < end) {
+    ptr = ::google::protobuf::io::Parse32(ptr, &tag);
+    GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+    switch (tag >> 3) {
+      // optional string task_name = 1;
+      case 1: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 10) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_task_name();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // optional string task_type = 2;
+      case 2: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 18) goto handle_unusual;
+        ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+        object = msg->mutable_task_type();
+        if (size > end - ptr + ::google::protobuf::internal::ParseContext::kSlopBytes) {
+          parser_till_end = ::google::protobuf::internal::GreedyStringParser;
+          goto string_till_end;
+        }
+        GOOGLE_PROTOBUF_PARSER_ASSERT(::google::protobuf::internal::StringCheck(ptr, size, ctx));
+        ::google::protobuf::internal::InlineGreedyStringParser(object, ptr, size, ctx);
+        ptr += size;
+        break;
+      }
+      // repeated group Parameter = 3 { ... };
+      case 3: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 27) goto handle_unusual;
+        do {
+          parser_till_end = ::chrome_lang_id::TaskSpec_Parameter::_InternalParse;
+          object = msg->add_parameter();
+          auto res = ctx->ParseGroup(tag, {parser_till_end, object}, ptr, end, &depth);
+          ptr = res.first;
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          if (res.second) goto group_continues;
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 27 && (ptr += 1));
+        break;
+      }
+      // repeated .chrome_lang_id.TaskInput input = 6;
+      case 6: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 50) goto handle_unusual;
+        do {
+          ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          parser_till_end = ::chrome_lang_id::TaskInput::_InternalParse;
+          object = msg->add_input();
+          if (size > end - ptr) goto len_delim_till_end;
+          ptr += size;
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ctx->ParseExactRange(
+              {parser_till_end, object}, ptr - size, ptr));
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 50 && (ptr += 1));
+        break;
+      }
+      // repeated .chrome_lang_id.TaskOutput output = 7;
+      case 7: {
+        if (static_cast<::google::protobuf::uint8>(tag) != 58) goto handle_unusual;
+        do {
+          ptr = ::google::protobuf::io::ReadSize(ptr, &size);
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ptr);
+          parser_till_end = ::chrome_lang_id::TaskOutput::_InternalParse;
+          object = msg->add_output();
+          if (size > end - ptr) goto len_delim_till_end;
+          ptr += size;
+          GOOGLE_PROTOBUF_PARSER_ASSERT(ctx->ParseExactRange(
+              {parser_till_end, object}, ptr - size, ptr));
+          if (ptr >= end) break;
+        } while ((::google::protobuf::io::UnalignedLoad<::google::protobuf::uint64>(ptr) & 255) == 58 && (ptr += 1));
+        break;
+      }
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->EndGroup(tag);
+          return ptr;
+        }
+        auto res = UnknownFieldParse(tag, {_InternalParse, msg},
+          ptr, end, msg->_internal_metadata_.mutable_unknown_fields(), ctx);
+        ptr = res.first;
+        GOOGLE_PROTOBUF_PARSER_ASSERT(ptr != nullptr);
+        if (res.second) return ptr;
+      }
+    }  // switch
+  }  // while
+  return ptr;
+string_till_end:
+  static_cast<::std::string*>(object)->clear();
+  static_cast<::std::string*>(object)->reserve(size);
+  goto len_delim_till_end;
+len_delim_till_end:
+  return ctx->StoreAndTailCall(ptr, end, {_InternalParse, msg},
+                               {parser_till_end, object}, size);
+group_continues:
+  GOOGLE_DCHECK(ptr >= end);
+  GOOGLE_PROTOBUF_PARSER_ASSERT(ctx->StoreGroup(
+      {_InternalParse, msg}, {parser_till_end, object}, depth, tag));
+  return ptr;
+}
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 bool TaskSpec::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   ::google::protobuf::internal::LiteUnknownFieldSetter unknown_fields_setter(
       &_internal_metadata_);
@@ -1535,8 +2105,7 @@ bool TaskSpec::MergePartialFromCodedStream(
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // optional string task_name = 1;
       case 1: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (10 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_task_name()));
         } else {
@@ -1547,8 +2116,7 @@ bool TaskSpec::MergePartialFromCodedStream(
 
       // optional string task_type = 2;
       case 2: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (18 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_task_type()));
         } else {
@@ -1559,8 +2127,7 @@ bool TaskSpec::MergePartialFromCodedStream(
 
       // repeated group Parameter = 3 { ... };
       case 3: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(27u /* 27 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (27 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadGroup(3, input, add_parameter()));
         } else {
           goto handle_unusual;
@@ -1570,8 +2137,7 @@ bool TaskSpec::MergePartialFromCodedStream(
 
       // repeated .chrome_lang_id.TaskInput input = 6;
       case 6: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (50 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessage(
                 input, add_input()));
         } else {
@@ -1582,8 +2148,7 @@ bool TaskSpec::MergePartialFromCodedStream(
 
       // repeated .chrome_lang_id.TaskOutput output = 7;
       case 7: {
-        if (static_cast< ::google::protobuf::uint8>(tag) ==
-            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+        if (static_cast< ::google::protobuf::uint8>(tag) == (58 & 0xFF)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessage(
                 input, add_output()));
         } else {
@@ -1611,6 +2176,7 @@ failure:
   return false;
 #undef DO_
 }
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
 void TaskSpec::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
@@ -1669,6 +2235,10 @@ size_t TaskSpec::ByteSizeLong() const {
 
   total_size += _internal_metadata_.unknown_fields().size();
 
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   // repeated group Parameter = 3 { ... };
   {
     unsigned int count = static_cast<unsigned int>(this->parameter_size());
@@ -1702,16 +2272,17 @@ size_t TaskSpec::ByteSizeLong() const {
     }
   }
 
-  if (_has_bits_[0 / 32] & 3u) {
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000003u) {
     // optional string task_name = 1;
-    if (has_task_name()) {
+    if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->task_name());
     }
 
     // optional string task_type = 2;
-    if (has_task_type()) {
+    if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::StringSize(
           this->task_type());
@@ -1739,13 +2310,13 @@ void TaskSpec::MergeFrom(const TaskSpec& from) {
   input_.MergeFrom(from.input_);
   output_.MergeFrom(from.output_);
   cached_has_bits = from._has_bits_[0];
-  if (cached_has_bits & 3u) {
+  if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      set_has_task_name();
+      _has_bits_[0] |= 0x00000001u;
       task_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.task_name_);
     }
     if (cached_has_bits & 0x00000002u) {
-      set_has_task_type();
+      _has_bits_[0] |= 0x00000002u;
       task_type_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.task_type_);
     }
   }
@@ -1771,6 +2342,8 @@ void TaskSpec::Swap(TaskSpec* other) {
 }
 void TaskSpec::InternalSwap(TaskSpec* other) {
   using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   CastToBase(&parameter_)->InternalSwap(CastToBase(&other->parameter_));
   CastToBase(&input_)->InternalSwap(CastToBase(&other->input_));
   CastToBase(&output_)->InternalSwap(CastToBase(&other->output_));
@@ -1778,8 +2351,6 @@ void TaskSpec::InternalSwap(TaskSpec* other) {
     GetArenaNoVirtual());
   task_type_.Swap(&other->task_type_, &::google::protobuf::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::std::string TaskSpec::GetTypeName() const {
@@ -1791,22 +2362,23 @@ void TaskSpec::InternalSwap(TaskSpec* other) {
 }  // namespace chrome_lang_id
 namespace google {
 namespace protobuf {
-template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::chrome_lang_id::TaskInput_Part* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskInput_Part >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::chrome_lang_id::TaskInput_Part* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskInput_Part >(Arena* arena) {
   return Arena::CreateInternal< ::chrome_lang_id::TaskInput_Part >(arena);
 }
-template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::chrome_lang_id::TaskInput* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskInput >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::chrome_lang_id::TaskInput* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskInput >(Arena* arena) {
   return Arena::CreateInternal< ::chrome_lang_id::TaskInput >(arena);
 }
-template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::chrome_lang_id::TaskOutput* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskOutput >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::chrome_lang_id::TaskOutput* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskOutput >(Arena* arena) {
   return Arena::CreateInternal< ::chrome_lang_id::TaskOutput >(arena);
 }
-template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::chrome_lang_id::TaskSpec_Parameter* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskSpec_Parameter >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::chrome_lang_id::TaskSpec_Parameter* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskSpec_Parameter >(Arena* arena) {
   return Arena::CreateInternal< ::chrome_lang_id::TaskSpec_Parameter >(arena);
 }
-template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::chrome_lang_id::TaskSpec* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskSpec >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::chrome_lang_id::TaskSpec* Arena::CreateMaybeMessage< ::chrome_lang_id::TaskSpec >(Arena* arena) {
   return Arena::CreateInternal< ::chrome_lang_id::TaskSpec >(arena);
 }
 }  // namespace protobuf
 }  // namespace google
 
 // @@protoc_insertion_point(global_scope)
+#include <google/protobuf/port_undef.inc>
